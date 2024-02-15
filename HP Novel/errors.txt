@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/blue_route.rpy", line 8: expected '=' not found.
+    define Кто-то = Character("???", color = "#800000", outlines = [ (absolute(2), "#fff", absolute(0), absolute(0)) ])
+              ^
+
+Ren'Py Version: Ren'Py 8.1.3.23091805
+Fri Jan 12 15:02:10 2024

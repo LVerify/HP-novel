@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/fred.rpy", line 90, in script
+    blue_character "Will you marry me?"
+Exception: Sayer 'blue_character' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scripts/fred.rpy", line 90, in script
+    blue_character "Will you marry me?"
+  File "D:\Games\renpy-8.1.3-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\Games\renpy-8.1.3-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'blue_character' is not defined.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.1.3.23091805
+HP Novel 1.0
+Thu Feb 15 17:07:28 2024
